@@ -2,12 +2,12 @@
 
 
 
-**CORE**
+* **CORE**
 
-a small ruby app for manipulating a dataset coming from a csv file
+A small ruby app for manipulating a dataset coming from a csv file
 
 
-**Technologies used :** 
+* **Technologies Used** 
 
 1. Ruby 2.51 
 2. RVM
