@@ -3,6 +3,7 @@
 
 
 **CORE**
+
 a small ruby app for manipulating a dataset coming from a csv file
 
 
