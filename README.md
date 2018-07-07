@@ -1,6 +1,10 @@
 **Modomoto**  _Task_ 
 
-=================================================
+
+
+**CORE**
+a small ruby app for manipulating a dataset coming from a csv file
+
 
 **Technologies used :** 
 
