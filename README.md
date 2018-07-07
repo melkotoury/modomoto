@@ -6,8 +6,14 @@
 
 A small ruby app for manipulating a dataset coming from a csv file
 
+* **STEPS**
 
-* **Technologies Used** 
+1. place your corrupted csv file in the project root directory
+2. run the following command ```ruby main.rb```
+
+
+
+* **TECHNOLOGIES USED** 
 
 1. Ruby 2.51 
 2. RVM
