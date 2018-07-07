@@ -19,3 +19,4 @@ A small ruby app for manipulating a dataset coming from a csv file
 2. RVM
 3. RubyMine
 4. CSV Library
+5. Rubocop
