@@ -48,13 +48,4 @@ csv.each do |row|
     number.to_s.chars.to_a.reverse.each_slice(1).map(&:join).join(',').reverse
   end
 
-  def write_to_csv(id,retoure_reason)
-    header = ['id','retoure_reason']
-    CSV.open('corrected.csv','a') do |csv|
-      row = CSV::Row.new(header,[])
-      row['id'] = id
-      row['retoure_reason'] = retoure_reason
-      csv << row
-    end
-  end
 end
