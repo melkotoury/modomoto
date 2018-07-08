@@ -13,8 +13,8 @@ csv.each do |row|
     header = ['id','retoure_reason']
     CSV.open('corrected.csv','a') do |csv|
       row = CSV::Row.new(header,[])
-      row['id'] = id
-      row['retoure_reason'] = reasons
+      row['id'] = id.to_s
+      row['retoure_reason'] = reasons.to_s
       csv << row
     end
   elsif reasons.to_i >= 10**6
@@ -25,8 +25,8 @@ csv.each do |row|
     header = ['id','retoure_reason']
     CSV.open('corrected.csv','a') do |csv|
         row = CSV::Row.new(header,[])
-        row['id'] = id
-        row['retoure_reason'] = corrected
+        row['id'] = id.to_s
+        row['retoure_reason'] = corrected.to_s
         csv << row
       end
   else
@@ -38,8 +38,8 @@ csv.each do |row|
     header = ['id','retoure_reason']
     CSV.open('corrected.csv','a') do |csv|
       row = CSV::Row.new(header,[])
-      row['id'] = id
-      row['retoure_reason'] = corrected
+      row['id'] = id.to_s
+      row['retoure_reason'] = corrected.to_s
       csv << row
     end
   end
